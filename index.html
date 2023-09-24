@@ -26,10 +26,19 @@
       }
 
       li {
-        margin: 10px 0;
+        font-size: 15px;
+        margin: 20px 0;
+      }
+
+      p {
+         line-height: 25px;
+         font-size: 15px;
+      }
+      dd {
+         font-size: 15px;
+         line-height: 25px;
       }
     </style>
-      
 
   </head>
 
@@ -38,9 +47,13 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="https://szhengac.github.io/">Shuai Zheng</a>
+          <a class="brand" href="./index.html">Shuai Zheng</a>
+          <a class="brand" href="./index.html">Home</a>
+          <a class="brand" href="./papers.html"> Papers </a>
+          <a class="brand" href="./service.html"> Services </a>
           <ul class="nav">
           </ul>
+        </div>
         </div>
       </div>
     </div>
@@ -54,7 +67,6 @@
 
 <div class="row">
   <div class="span14">
-    
 
 <div>
 
@@ -62,16 +74,16 @@
 <h2> Shuai Zheng </h2>
 <dl>
   <dd>
-    <b>Senior Applied Scientist</b> </dd>
+    <b>Cofounder</b> </dd>
   <dd>
-    Amazon Web Services </dd>
+    <a href="https://boson.ai/"> Boson AI </a> </dd>
   <dd>
-    2795 Augustine Dr </dd>
+     4677 Old Ironsides Dr </dd>
   <dd>
     Santa Clara, CA 95054, US </dd>
    <dd>
    <i class="fa fa-inbox" aria-hidden="true"></i>
-   <a>szhengac@connect.ust.hk</a> </dd>
+   <a>shuai@boson.ai</a> </dd>
     <dd>
     <i class="fa fa-github"></i> <a href="https://github.com/szhengac">Github</a>
     </dd>
@@ -79,14 +91,22 @@
 </div>
 
 <h3> About Me </h3>
-I am a Senior Applied Scientist at Amazon Web Services. I received my Ph.D. degree in <a href="https://cse.hkust.edu.hk/"> computer science </a> from the <a href="http://www.ust.hk">Hong Kong University of Science and Technology</a>. 
-My team works on large-scale distributed machine learning system, compiler and algorithm, with a focus on optimizing the training and inference performance for state-of-the-art deep learning models on big multi-modal data spanning over text, image, tabular, and graph. 
-The team provides system support for many projects at Amazon. We empowered <a href="https://www.amazon.science/blog/scaling-to-trillion-parameter-model-training-on-aws">trillion-parameter model training on AWS</a>. Previously, we also explored how cutting-edge natural language processing techniques can advance online advertising and financial services. 
-Our goal is to democratize the creation of state-of-the-art machine learning models while reducing associated human labeling and model training and inference costs.
+  <p>
+    I am building next generation of foundation models and LLM powered products to make AI more accessible to the world at <a href="https://boson.ai/"> Boson.ai</a>.
+    The company is still in stealth mode. Stay tuned on what will be revealed soon!
+  </p>
 
-<div style="padding:3px;"> </div>
-  
-We have full-time and internship openings for distributed deep learning system, compiler, and algorithm. Do drop me a line if you are interested.
+  <p>
+    I studied software engineering at the Beijing Jiaotong University.
+    In 2015 I received the MPhil degree and in 2019 the Doctoral Degree in <a href="https://cse.hkust.edu.hk/"> computer science </a> from the <a href="http://www.ust.hk">Hong Kong University of Science and Technology</a>
+    After that, I worked as a Scientist at Amazon Web Services until 2023. I led the distributed system and LLM training efforts across Amazon.
+    These include scalable distributed training & inference infrastructure, better models with hundreds of billions of parameters, and faster distributed optimization algorithms.
+    I was also driving the LLM science endeavors for Amazon Ads CTR and SageMaker multi-modal financial analysis. The science outputs lifted the annual revenue by hundreds of millions of dollars.
+  </p>
+
+  <p>
+<em> <b> We at Boson.ai are hiring full-time machine learning engineers and researchers for building LLM and its applications. Do drop me a line if you are interested and want to know more. </b> </em>
+</p>
 
 <div style="padding:6px;"> </div>
 
@@ -106,8 +126,12 @@ We have full-time and internship openings for distributed deep learning system, 
 
 <h3>Working Experience</h3>
 <ul>
+  <li> Cofounder, Boson AI  </br>
+    Santa Clara, CA, USA, Mar 2023 - Present </li>
+</ul>
+<ul>
   <li> Senior Applied Scientist, AWS Deep Learning, Amazon AI  </br>
-    East Palo Alto, CA, USA, Sep 2019 - Present </li>
+    East Palo Alto, CA, USA, Sep 2019 - Feb 2023 </li>
 </ul>
 <ul>
   <li> Applied Scientist Intern, AWS Deep Learning, Amazon AI  </br>
@@ -129,223 +153,9 @@ A deep learning framework that mixes symbolic and imperative programming to maxi
 GluonNLP is a toolkit that enables easy text preprocessing, datasets loading and neural models building to help you speed up your Natural Language Processing (NLP) research.
 </li>
   <li> <a href="https://github.com/awslabs/slapo"> Slapo: </a>
-Slapo is a schedule language for progressive optimization of large deep learning model training. 
-</ul>
-
-<div style="padding:6px;"> </div>
-
-<h3>Publications</h3>
-<div>
-<ol>
-   <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2302.08005.pdf"> Decoupled Model Schedule for Deep Learning Training </a> </br>
-      Hongzheng Chen, Cody Hao Yu, <b>Shuai Zheng</b>, Zhen Zhang, Zhiru Zhang, Yida Wang </br>
-      <i> arXiv:2302.08005, Feb 2023 </i> </br>
-    </p>
-  </li>
-  <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2205.00119.pdf"> MiCS: Near-linear Scaling for Training Gigantic Model on Public Cloud </a> [<a href="https://www.amazon.science/blog/near-linear-scaling-of-gigantic-model-training-on-aws">Amazon blog</a>] [<a href="https://docs.aws.amazon.com/sagemaker/latest/dg/model-parallel-extended-features-pytorch-sharded-data-parallelism.html">SageMaker</a>] </br>
-      Zhen Zhang, <b>Shuai Zheng</b>, Yida Wang, Justin Chiu, George Karypis, Trishul Chilimbi, Mu Li, Xin Jin </br>
-      <i> To appear in the 49th International Conference on Very Large Data Bases (VLDB), Vancouver, Canada, August 2023 </i> </br>
-    </p>
-  </li>
-  <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2212.10929.pdf"> SPT: Semi-Parametric Prompt Tuning for Multitask Prompted Learning </a> </br>
-      M Saiful Bari, Aston Zhang, <b>Shuai Zheng</b>, Xingjian Shi, Yi Zhu, Shafiq Joty, Mu Li </br>
-      <i> arXiv:2212.10929, Dec 2022 </i> </br>
-    </p>
-  </li>
-  <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2212.05191.pdf"> SMILE: Scaling Mixture-of-Experts with Efficient Bi-level Routing </a> </br>
-      Chaoyang He, <b>Shuai Zheng</b>, Aston Zhang, George Karypis, Trishul Chilimbi, Mahdi Soltanolkotabi, Salman Avestimehr </br>
-      <i> arXiv:2212.05191, Dec 2022 </i> </br>
-    </p>
-  </li>
-  <li>
-    <p>
-      <a href="https://proceedings.mlr.press/v162/wang22aq/wang22aq.pdf"> Partial and Asymmetric Contrastive Learning for Out-of-Distribution Detection in Long-Tailed Recognition </a> </br>
-      Haotao Wang, Aston Zhang, Yi Zhu, <b>Shuai Zheng</b>, Mu Li, Alex Smola, Zhangyang Wang </br>
-      <i> The 39th International Conference on Machine Learning (ICML, Long Oral), Baltimore, Maryland, USA, July 2022 </i> </br>
-    </p>
-  </li>
-  <li>
-    <p>
-      <a href="https://proceedings.mlr.press/v162/wang22ap/wang22ap.pdf"> Removing Batch Normalization Boosts Adversarial Training </a> </br>
-      Haotao Wang, Aston Zhang, <b>Shuai Zheng</b>, Xingjian Shi, Mu Li, Zhangyang Wang </br>
-      <i> The 39th International Conference on Machine Learning (ICML), Baltimore, Maryland, USA, July 2022 </i> </br>
-    </p>
-  </li>
-  <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2206.07808.pdf"> Alexa Teacher Model: Pretraining and Distilling Multi-Billion-Parameter Encoders for Natural Language Understanding Systems </a> </br>
-      Jack FitzGerald, Shankar Ananthakrishnan, Konstantine Arkoudas, Davide Bernardi, Abhishek Bhagia, Claudio Delli Bovi, Jin Cao, Rakesh Chada, Amit Chauhan, 
-Luoxin Chen, Anurag Dwarakanath, Satyam Dwivedi,
-Turan Gojayev, Karthik Gopalakrishnan, Thomas Gueudre,
-Dilek Hakkani-Tur, Wael Hamza, Jonathan Hueser,
-Kevin Martin, Jose Haidar Khan, Beiye Liu,
-Jianhua Lu, Alessandro Manzotti, Pradeep Natarajan,
-Karolina Owczarzak, Gokmen Oz, Enrico Palumbo,
-Charith Peris, Chandana Satya Prakash, Stephen Rawls,
-Andy Rosenbaum, Anjali Shenoy, Saleh Soltan,
-Mukund Harakere Sridhar, Liz Tan, Fabian Triefenbach,
-Pan Wei, Haiyang Yu, <b>Shuai Zheng</b>,
-Gokhan Tur, Prem Natarajan  </br>
-      <i> The 28th ACM SIGKDD Conference (KDD), Washington DC, August, 2022 </i> </br>
-    </p>
-  </li>
-  <li>
-    <p>
-      <a href="https://www2022.thewebconf.org/PaperFiles/22.pdf"> DCAF-BERT: A Distilled Cachable Adaptable Factorized Model For Improved Ads CTR Prediction </a> </br>
-      Aashiq Muhamed, Jaspreet Singh, <b>Shuai Zheng</b>, Iman Keivanloo, Sujan Perera, Jame Mracek, Yi Xu, Qingjun Cui, Sunny Rajagopalan, Belinda Zeng, Trishul Chilimbi </br>
-      <i> The 31st ACM Web Conference (WWW), Lyon, France, April 2022 </i> </br>
-    </p>
-  </li>
-    <li>
-    <p>
-    <a href="https://openreview.net/pdf?id=HMR-7-4-Zr"> Contractive Error Feedback for Gradient Compression </a> </br>
-    Bingcong Li, <b>Shuai Zheng</b>, Parameswaran Raman, Anshumali Shrivastava, Georgios B. Giannakis </br>
-    <i> Preprint 2021 </i> </br>
-    </p>
-  </li>
-  <li>
-  <p>
-     <a href='https://assets.amazon.science/c6/0e/2dd56cfb4c839ecb8a676447d52b/context-language-modeling-and-multimodal-data-in-finance.pdf'> Context, Language Modeling, and Multimodal Data in Finance </a> </br>
-  Sanjiv Das, Connor Goggins, John He, George Karypis, Sandeep Krishnamurthy, Mitali Mahajan, Nagpurnanand Prabhala, Shenghua Yue, Dylan Slack, Rob van Dusen, Sheng Zha, <b> Shuai Zheng</b> </br>
-  <i> Authors listed in alphabetic order </i> </br>
-  <i> The Journal of Financial Data Science, Summer 2021 </i> </br>
-  </p>
-  </li>
-    <li>
-   <p>
-    <a href="https://arxiv.org/pdf/2105.07829.pdf"> Compressed Communication for Distributed Training: Adaptive Methods and System </a> [<a href="https://github.com/vycezhong/byteps-compress">code</a>] </br>
-    Yuchen Zhong, Cong Xie, <b> Shuai Zheng</b>, Haibin Lin </br>
-    <i> Preprint arXiv:2105.07829, May 2021 </i> </br>
-  </p>
-  </li>
-  <li>
-  <p>
-     <a href="https://proceedings.neurips.cc/paper/2020/file/94cb02feb750f20bad8a85dfe7e18d11-Paper.pdf"> CSER: Communication-efficient SGD with Error Reset </a> </br>
-  Cong Xie, <b> Shuai Zheng</b>, Oluwasanmi Koyejo, Indranil Gupta, Mu Li, Haibin Lin </br>
-  <i> The 34th Conference on Neural Information Processing Systems (NeurIPS), Vancouver, Canada, Dec 2020 </i> </br>
-  </p>
-  </li>
-  <li>
-  <p>
-     <a href="https://arxiv.org/abs/2006.13484"> Accelerated Large Batch Optimization of BERT Pretraining in 54 minutes </a> </br>
-  <b> Shuai Zheng</b>, Haibin Lin, Sheng Zha, Mu Li </br>
-  <i> Preprint arXiv:2006.13484, June 2020 </i> </br>
-  </p>
-  </li>
-   <li>
-   <p>
-     <a href="papers/jmlr2020.pdf"> GluonCV and GluonNLP: Deep Learning in Computer Vision and Natural Language Processing </a> </br>
-      Jian Guo, He He, Tong He, Leonard Lausen, Mu Li, Haibin Lin, Xingjian Shi, Chenguang Wang, Junyuan Xie, Sheng Zha, Aston Zhang, Hang Zhang, Zhi Zhang, Zhongyue Zhang, <b>Shuai Zheng</b>, Yi Zhu </br>
-     <i> Authors listed in alphabetic order </i> </br> 
-     <i> Journal of Machine Learning Research (JMLR), Feb 2020 </i> </br>
-   </p>
-   </li>
-   <li>
-    <p>
-        <a href="papers/nips19.pdf"> Communication-Efficient Distributed Blockwise Momentum SGD with Error-Feedback </a> [<a href="https://github.com/ZiyueHuang/dist-ef-sgdm">code</a>]</br>
-       <b>Shuai Zheng</b>, Ziyue Huang, James T. Kwok</br>
-       <i>The 33rd Conference on Neural Information Processing Systems (NeurIPS), Vancouver, Canada, Dec 2019 </i> </br>
-    </p>
-  </li>
-  <li>
-  <p>
-     <a href="http://arxiv.org/abs/1905.09899"> Blockwise Adaptivity: Faster Training and Better Generalization in Deep
-  Learning </a> </br>
-  <b> Shuai Zheng</b>, James T. Kwok </br>
-  <i> Preprint arXiv:1905.09899, May 2019 </i> </br>
-  </p>
-  </li>
-  <li>
-    <p>
-        <a href="papers/icml18.pdf"> Lightweight Stochastic Optimization for Minimizing Finite Sums with Infinite Data </a> </br>
-       <b>Shuai Zheng</b>, James T. Kwok</br>
-       <i>The 35th International Conference on Machine Learning (ICML), Stockholm, Sweden, July 2018 </i> </br>
-    </p>
-  </li>
-  <li>
-    <p>
-       <a href="papers/icml17.pdf"> Follow the Moving Leader in Deep Learning </a>  [<a href="papers/icml17_supplementary.pdf">supplementary</a>]  </br>
-       <b>Shuai Zheng</b>, James T. Kwok</br>
-       <i>The 34th International Conference on Machine Learning (ICML), Sydney, Australia, August 2017 </i> </br>
-    </p>
-  </li>
-  <li>   
-    <p>
-       <a href="papers/ijcai16.pdf"> Fast-and-Light Stochastic ADMM </a> [<a href="papers/ijcai16_supplementary.pdf">supplementary</a>]  [<a href="https://arxiv.org/abs/1604.07070">longer arxiv version</a>] </br>
-       <b>Shuai Zheng</b>, James T. Kwok</br>
-       <i>The 25th International Joint Conference on Artificial Intelligence (IJCAI), New York, New York, USA, July 2016 </i> </br>
-    </p>
-  </li>
-  <li>   
-    <p>
-       <a href="papers/aaai16a.pdf"> Fast Nonsmooth Regularized Risk Minimization with Continuation </a>[<a href="papers/aaai16a_supplementary.pdf">supplementary</a>] </br>
-       <b>Shuai Zheng</b>, Ruiliang Zhang, James T. Kwok</br>
-       <i>The 30th AAAI Conference on Artificial Intelligence (AAAI), Phoenix, Arizona, USA, Feb 2016 </i> </br>
-    </p>
-  </li>
-  <li>   
-    <p>
-       <a href="papers/aaai16b.pdf"> Asynchronous Distributed Semi-Stochastic Gradient Optimization </a>[<a href="papers/aaai16b_supplementary.pdf">supplementary</a>]</br>
-       Ruiliang Zhang, <b>Shuai Zheng</b>, James T. Kwok</br>
-       <i>The 30th AAAI Conference on Artificial Intelligence (AAAI), Phoenix, Arizona, USA, Feb 2016 </i> </br>
-    </p>
-  </li>
-  <li>   
-    <p>
-       <a href="papers/aaai14.pdf"> Accurate Integration of Aerosol Predictions by Smoothing on a Manifold </a>[<a href="code/aaai14_code.zip">code</a>][<a href="data/aaai14_data.zip">data</a>]</br>
-       <b>Shuai Zheng</b>, James T. Kwok</br>
-       <i> The 28th AAAI Conference on Artificial Intelligence (AAAI), Quebec City, Canada, July 2014 </i> </br>
-    </p>
-  </li>
-  <li>
-    <p>
-       Flexible Navigation in Smartphones and Tablets using Scalable Storyboards</br>
-       <b>Shuai Zheng</b>, Luis Herranz, Shuqiang Jiang </br>
-       <i> The 3rd ACM International Conference on Multimedia Retrieval (ICMR), Dallas, Texas, USA, April 2013</i> </br>
-    </p>
-  </li>
-</ol>
-</div>
-
-<div style="padding:6px;"> </div>
-
-<h3>Awards</h3>
-<ul>
- <li> Top Reviewer, NeurIPS 2019, ICML 2020 </li>
- <li> Postgraduate Studentship, HKUST 2015-2019  </li>
- <li> Travel Award, AAAI 2014, IJCAI 2016, ICML (2017, 2018) </li>
- <li> Undergraduate Scholarship, BJTU 2012 </li>
-</ul>
-
-<div style="padding:6px;"> </div>
-
-<h3> Academic Services </h3>
-<ul>
-  <li> PC member of AAAI Conference on Artificial Intelligence (AAAI) 2019 - 2021
-  <li> PC member of Asian Conference on Machine Learning (ACML) 2018 - 2020
-  <li> PC member of ACM SIGKDD Conference (KDD) 2022
-  <li> Reviewer of International Conference on Machine Learning (ICML) 2017 - 2022
-  <li> Reviewer of Neural Information Processing Systems (NeurIPS) 2018 - 2022
-  <li> Reviewer of International Conference on Artificial Intelligence and Statistics (AISTATS) 2019 - 2023
-  <li> Reviewer of International Conference on Learning Representations (ICLR) 2020 - 2022
-  <li> Reviewer of Machine Learning Journal (MLJ) </li>
-  <li> Reviewer of Transactions on Machine Learning Research (TMLR) </li>
-  <li> Reviewer of IEEE Access </li>
-  <li> Reviewer of IEEE Transactions on Automatic Control (IEEE TAC)
-  <li> Reviewer of IEEE  Transactions on Signal Processing (IEEE TSP)
-  <li> Reviewer of ACM Transactions on Knowledge Discovery from Data (TKDD) </li>
-  <li> Reviewer of IEEE/ACM Transactions on Networking (TON) </li>
-  <li> Reviewer of IEEE Transactions on Signal and Information Processing over Networks (IEEE TSIPN) </li>
-  <li> Reviewer of IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS) </li>
-  <li> Reviewer of IEEE Transactions on Emerging Topics in Computational Intelligence (IEEE TETCI) </li>
+Slapo is a schedule language for progressive optimization of large deep learning model training.
+  <li> <a href="https://github.com/microsoft/DeepSpeed/blob/master/docs/code-docs/source/zero3.rst#mics-configurations"> MiCS: </a>
+MiCS is a proprietary distributed system that allows <a href="https://www.amazon.science/blog/scaling-to-trillion-parameter-model-training-on-aws"> the training of trillion parameter language models on public cloud </a>. We upstreamed its implementation to DeepSpeed.
 </ul>
 
   </div>
